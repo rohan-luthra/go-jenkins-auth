@@ -22,7 +22,7 @@ func Test(t *testing.T) {
 
 	for id, status := range res {
 		if test[id] != "" && test[id] != status {
-			t.Error("Invalid status")
+			t.Error("Invalid status!")
 		}
 	}
 }
